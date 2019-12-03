@@ -1,7 +1,6 @@
 # Taps
-tap 'caskroom/cask'
-tap 'caskroom/fonts'
-tap 'caskroom/versions'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'azure/draft'
 
@@ -53,16 +52,11 @@ cask 'dotnet-sdk'
 brew 'vault'
 cask 'mono-mdk'
 cask 'rider'
-# Required by SQLWorkbenchJ
-cask 'java8'
-cask 'sqlworkbenchj'
 cask 'robo-3t'
 cask 'google-cloud-sdk'
 brew 'go'
-brew 'kubernetes-cli'
-brew 'kubernetes-helm'
 brew 'azure/draft/draft'
-brew 'lastpass-cli'
+cask 'authy'
 
 # Apps
 cask 'firefox'
